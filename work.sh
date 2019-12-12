@@ -1,2 +1,2 @@
 cd /home/ashok
-mkdir ohh
+mkdir eppadi

@@ -3,10 +3,10 @@
 set -vx
 
 cd /dev
-mkdir $folder
-cd  $folder
+mkdir $TOPS_NUM
+cd  $TOPS_NUM
 
- wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id='$url'' -O test.zip
+ wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id='$URL'' -O test.zip
 
 unzip   test.zip
 mkdir revproui

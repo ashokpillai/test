@@ -1,15 +1,8 @@
 #!/bin/bash
-echo TOPS_NUM
-read folder
-echo VERSION_NUM
-read ver
-echo URL
-read url
-
 
 set -vx
 
-cd /home/DBA/dev
+cd /dev
 mkdir $folder
 cd  $folder
 

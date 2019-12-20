@@ -13,7 +13,7 @@ mkdir revproui
 unzip revproui.zip -d revproui
 cd revproui
 
-#aws s3 cp . s3://release.revpro.cloud/master/$ver/ --recursive --acl public-read
+#aws s3 cp . s3://release.revpro.cloud/master/$VERSION_NUM/ --recursive --acl public-read
 
 if [[ $? -ne 0 ]]
 then
